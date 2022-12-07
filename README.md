@@ -6,6 +6,6 @@ Inspiriert durch [diesen](https://www.reddit.com/r/de/comments/mkt3a8/w%C3%BCrfe
 
 Ein Python-Script mit dem Sie ganz ohne Würfel Ihren eigenen Pandemieplan nach dem Laschet-Prinzip generieren können, ganz **Ohne Würfel**!
 
-#Achtung
+**!!Achtung!!**
 
 **Momentan noch nicht funktionsfähig**
