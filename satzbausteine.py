@@ -1,4 +1,4 @@
-Satzbausteine_0 = ['Was wir jetzt brauchen ist ein/e \n']
+Satzbausteine_0 = ['Was wir jetzt brauchen ist eine/n \n']
 
 Satzbausteine_1 = ['ein', 'zwei', 'drei', 'vier', 'fünf', 'sechs']
 
