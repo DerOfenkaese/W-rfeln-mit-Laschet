@@ -8,4 +8,4 @@ Ein Python-Script mit dem Sie ganz ohne Würfel Ihren eigenen Pandemieplan nach 
 
 **!!Achtung!!**
 
-**Momentan noch nicht funktionsfähig**
+**Zurzeit ist das Script nicht in der Lage "eine/n" und ähnliche Fälle korrekt nach Kontext zu formatieren** 
