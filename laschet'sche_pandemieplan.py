@@ -24,7 +24,10 @@ def würfeln():
 
 #hier erfolgt die deformisierung der würfel ergebnisse
 def würfel_deformisator(würfel_ergebnis):
-    pass    
+   würfel_ergebnis.insert(6, '') 
+   würfel_ergebnis.insert(8, '')
+   würfel_ergebnis.insert(11, '')
+   return würfel_ergebnis    
 
 #kreirt einen Pandemieplan nach dem Laschet-Prinzip 
 def pandemieplan_generator(würfel_ergebnis):
@@ -33,16 +36,15 @@ def pandemieplan_generator(würfel_ergebnis):
     Satzbausteine_index +=1
 
     for augenzahl in würfel_ergebnis:
-        if Satzbausteine_index != 6 and Satzbausteine_index != 6 and Satzbausteine_index != 6:
-            anhängen(pandemieplan, Satzbausteine[Satzbausteine_index][augenzahl])
+        anhängen(pandemieplan, Satzbausteine[Satzbausteine_index][augenzahl])
         Satzbausteine_index +=1
 
-        if Satzbausteine_index == 6:
-            anhängen(pandemieplan, Satzbausteine[6][0])
-        if Satzbausteine_index == 7:
-            anhängen(pandemieplan, Satzbausteine[8][0])
-        if Satzbausteine_index == 9:
-            anhängen(pandemieplan, Satzbausteine[11][0])    
+        # if Satzbausteine_index == 6:
+        #     anhängen(pandemieplan, Satzbausteine[6][0])
+        # if Satzbausteine_index == 7:
+        #     anhängen(pandemieplan, Satzbausteine[8][0])
+        # if Satzbausteine_index == 9:
+        #     anhängen(pandemieplan, Satzbausteine[11][0])    
     return pandemieplan    
 
 #Hauptfunktion wenn direkt ausgeführt
